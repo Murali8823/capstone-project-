@@ -1,0 +1,1 @@
+{"expo":{"name":"ShieldPay Demo","slug":"shieldpay-demo","scheme":"shieldpay","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","android":{"usesCleartextTraffic":true},"plugins":["expo-router",["expo-camera",{"cameraPermission":"ShieldPay uses your camera to scan a demo payment QR."}]],"experiments":{"typedRoutes":true}}}

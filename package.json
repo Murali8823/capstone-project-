@@ -1,0 +1,35 @@
+{
+  "name": "shieldpay-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --lan",
+    "chain:node": "hardhat node --hostname 127.0.0.1",
+    "chain:compile": "hardhat compile",
+    "chain:deploy": "hardhat run scripts/deploy-escrow.cjs --network localhost",
+    "chain:test": "hardhat test"
+  },
+  "dependencies": {
+    "expo": "~58.0.0",
+    "expo-camera": "*",
+    "expo-constants": "*",
+    "expo-linking": "*",
+    "expo-router": "*",
+    "expo-status-bar": "*",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-qrcode-svg": "6.3.15",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-svg": "*"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@types/react": "*",
+    "ethers": "^6.14.0",
+    "hardhat": "^2.26.0",
+    "solc": "^0.8.28",
+    "typescript": "*"
+  }
+}
